@@ -1,0 +1,114 @@
+.blog-archive {
+    .archive-blog-post {
+        text-decoration:none;
+        &:hover {
+            color: #000;
+            text-decoration:underline;
+        }
+    }
+    .archive-blog-post-image{
+        width:370px;
+        height:270px;
+        max-width:100%;
+        margin:auto;
+
+    }
+    .archive-blog-post-category {
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 175%;
+/* identical to box height, or 21px */
+
+text-align: center;
+letter-spacing: 0.16em;
+
+color: #000000;
+margin-top:15px;
+margin-bottom:7px;
+    }
+    .archive-blog-post-text{
+        font-family: New Caledonia LT Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 140%;
+        /* or 35px */
+        text-align: center;
+        color: #000000;
+        margin-bottom:0px;
+        @media(min-width:$mobile){
+            margin-bottom:50px;
+        }
+    }
+
+    .blog-post-spacer {
+        margin-top: 53px;
+        margin-bottom: 59px;
+        border-bottom: 1px solid #000;
+        display: block;
+        height: 1px;
+        width: 100%;
+    }
+
+    .alm-reveal.row:first-child {
+        padding-top: 0px;
+    }
+    // .alm-reveal.row {
+    //     padding: 59px 0px 49px;
+    //     border-bottom: 1px solid #000;
+    // }
+    .archive-blog-post-col {
+        margin-bottom:50px;
+
+        &::after {
+            @media(min-width:$mobile){
+                content: '';
+                width: 100%;
+                /* height: 1px; */
+                /* display: block; */
+                border-bottom: 1px solid #000;
+                /* margin-bottom: 20px; */
+                position: absolute;
+                /* margin: 0px -15px; */
+                /* padding-right: 15px; */
+                bottom: 0px;
+                left:0px;
+                right:0px;
+            }
+        }
+    }
+}
+#category-select {
+    margin-bottom:40px;
+    select {
+        padding: 15px 45px 15px 15px;
+        width:268px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+        /* identical to box height, or 18px */
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url("/wp-content/uploads/category-down-arrow.png") no-repeat right 20px #fff;
+        background-size: 16px;
+        background-position: right 19px bottom 17px;
+        
+        
+    }
+
+}
+
+.blog-post-content-section .container {
+    max-width: 720px;
+}
+.post-thumbnail {
+    margin: auto;
+    text-align: center;
+}

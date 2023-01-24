@@ -1,0 +1,42 @@
+/* Gallery / Portfolio Archive Page */
+.portfolio-archive-heading {
+	font-family: Vogue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	text-align: center;
+	color: #222222;
+}
+#posts-portfolio .alm-listing .alm-reveal {
+    display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content:center;
+}
+
+
+
+#posts-portfolio {
+	// .alm-btn-wrap {
+	// 	display:block !important;
+	// }
+	.alm-paging li {
+		font-weight: 600;
+		font-size: 23px;
+		line-height: 150%;
+		
+		/*  */
+		a {
+			background-color: #fff !important;
+			border: 0px;
+			padding: 8px 13px;
+		}
+		&.active a{
+			text-decoration: underline;
+		}
+	}
+	.alm-paging-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:center;
+	}
+}

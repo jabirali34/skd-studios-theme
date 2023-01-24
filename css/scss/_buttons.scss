@@ -1,0 +1,27 @@
+/* BUTTONS */
+a.btn, a.btn:visited{
+	color:#020202;
+	border: 2px solid #020202;
+	font-style: normal;
+	font-weight: 600;
+	padding:20px;
+	text-decoration:none;
+	display: inline-block;
+    text-align: center;
+}
+.btn.large {
+	padding: 20px 35px;
+}
+@media(min-width:768px){
+	.btn {
+		font-size: 18px;
+		line-height: 150%;
+	}
+	.btn.large {
+		padding: 20px 70px;
+	}
+}
+a.btn.white, a.btn.white:visited {
+	border-color:#fff;
+	color: #fff;
+}

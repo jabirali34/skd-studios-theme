@@ -1,0 +1,41 @@
+// Global
+$mobile: 768px;
+
+@import 'normalize';
+@import 'type';
+@import 'hero';
+@import 'footer';
+@import 'gallery_archive';
+@import 'portfolio_post';
+@import 'pricing_section';
+@import 'recent_blog_posts';
+@import 'testimonials';
+@import 'text_image_rows';
+@import 'pricing_section';
+@import 'homepage_hero';
+@import 'buttons';
+@import 'forms';
+@import 'press_magazine';
+@import 'blog';
+@import 'flex_layout';
+@import 'shop_categories';
+@import 'category_post';
+
+.text-center {
+	text-align:center !important;;
+}
+
+.py-75 {
+	padding-top:50px;
+	padding-bottom:50px;
+  }
+@media(min-width:$mobile) {
+	.py-75 {
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
+	.section-container{
+		padding:75px 0px;
+	}
+}
+

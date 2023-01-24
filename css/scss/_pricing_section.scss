@@ -1,0 +1,80 @@
+/* PRICING SECTION */
+#pricing {
+	background: linear-gradient(109.13deg, #454342 3.89%, #000000 128.56%);
+	color:#fff;
+}
+
+.pricing-item {
+	font-size: 25px;
+line-height: 175%;
+font-weight: normal;
+margin:0px;
+cursor:pointer;
+}
+
+.pricing-item:hover {
+	text-decoration:underline;
+}
+.pricing-item.active {
+	text-decoration:underline;
+}
+.price-item-col {
+	border-right:0px;
+
+	.mobile-border {
+		border-bottom:1px solid #fff;
+		margin: 20px 0px 25px;
+		@media(min-width:$mobile){
+			display:none;
+		}
+	}
+	
+	@media(min-width:$mobile){
+		border-right:1px solid #fff;
+	}
+	
+}
+.price-description-col {
+	padding-left:15px;
+	@media(min-width:$mobile){
+		padding-left:57px;
+	}
+
+
+}
+#pricing h4 {
+	font-family: New Caledonia LT Std;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 125%;
+margin-top:0px;
+margin-bottom:25px;
+	@media(min-width: $mobile){
+		font-size: 35px;
+	line-height: 125%;
+	}
+}
+#pricing .asterisk-note {
+	font-size:15px;
+}
+#pricing ul {
+	padding:0px 0px 0px 15px;
+	margin:0px 0px 25px 0px;
+}
+#pricing ul li {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+}
+.price-description{
+	display:none;
+	&.active {
+		display:block;
+	}
+	p {
+		&:last-child {
+			margin-bottom:0px;
+		}
+	}
+}

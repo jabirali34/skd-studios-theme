@@ -1,0 +1,175 @@
+/* Typography
+--------------------------------------------- */
+@font-face {
+	font-family: 'Vogue';
+	src: 
+	url('/wp-content/themes/skdstudios_custom/fonts/Vogue.ttf');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'New Caledonia LT Std';
+	src:
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.eot'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.woff2'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.woff'),
+	url('/wp-content/themes/skdstudios_custom/fonts/NewCaledoniaLTStd.ttf');
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.svg');
+	font-weight:normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'New Caledonia LT Std';
+	src:
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.eot'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.woff2'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.woff'),
+	url('/wp-content/themes/skdstudios_custom/fonts/NewCaledoniaLTStd-It.ttf');
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Semibold_webfont.svg');
+	font-weight:normal;
+	font-weight: 500;
+	font-style: italic;
+  }
+  
+  @font-face {
+	font-family: 'New Caledonia LT Std';
+	src: 
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.eot'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.woff2'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.woff'),
+	url('/wp-content/themes/skdstudios_custom/fonts/NewCaledoniaLTStd-SemiBd.ttf');
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.svg');
+	font-weight:600;
+	font-weight: bold;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'New Caledonia LT Std';
+	src: 
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.eot'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.woff2'),
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.woff'),
+	url('/wp-content/themes/skdstudios_custom/fonts/NewCaledoniaLTStd-SemiBdIt.ttf');
+	// url('/wp-content/themes/skdstudios_custom/fonts/Mark_Simonson_Proxima_Nova_Alt_Bold_webfont.svg');
+	font-weight:600;
+	font-weight: bold;
+	font-style: italic;
+  }
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #404040;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: New Caledonia LT Std;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+	color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+h1 {
+	font-family:Vogue;
+	font-weight: normal;
+	font-size: 35px;
+	margin-bottom:25px;
+	line-height:1.2;
+	@media screen and (min-width: $mobile) {
+		font-size: 60px;
+		
+		margin-bottom:40px;
+	  }
+}
+h2, .h2 {
+	font-family: Vogue;
+	font-style: normal;
+	font-weight: normal;
+
+
+	font-size: 35px;
+    line-height: 37px;
+    margin-bottom: 15px;
+	@media screen and (min-width: $mobile) {
+		font-size: 45px;
+		line-height: 41px;
+		margin-bottom:25px;
+	  }
+}
+
+h3, .h3 {
+	font-family: Vogue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom:15px;
+@media screen and (min-width: $mobile) {
+	
+	font-size: 30px;
+  }
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", courier, monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
